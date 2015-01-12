@@ -3,6 +3,22 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+ {% if page.title %}
+    <meta property="og:locale" content="zh-cn">
+    <meta property="og:title" content="{{ page.title }} - {{site.title}}">
+ {% else %}
+    <meta property="og:type" content="website">
+ {% endif %}
+ {% if site.title %}
+    <meta property="og:site_name" content="{{ site.title }}">
+ {% endif %}
+ {% if page.url %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+ {% endif %}
+ {% if page.date %}   
+    <meta property="article:published time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}   
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 

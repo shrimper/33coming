@@ -3,7 +3,7 @@ layout: post
 title:  "33来活动!"
 date:   2015-01-12 22:49:13
 categories: blog
-author: dig3
+author: big3
 ---
 珊珊活动，有很多好玩的活动，你都不知道。
 
