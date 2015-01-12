@@ -19,7 +19,3 @@ author: dig3
 
 ### 神奇九宫格！
 
-
-[域名：http://33coming.com][URL]
-
-[URL]:      http://33coming.com

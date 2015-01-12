@@ -7,7 +7,5 @@ author: dig3
 ---
 欢迎来到 珊珊来吃 的博客。
 
+![An image; this is the alt text](/image/1.png)
 
-[域名：http://33coming.com][URL]
-
-[URL]:      http://33coming.com
