@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "33中医堂! 专业中医针灸、推拿按摩！学生优惠！"
+date:   2015-01-13 10:49:13
+categories: blog
+author: big3
+---
+
+### 33中医堂
+
+> 我们汇聚了 广州中医药大学，在校中医针灸推拿按摩专业学生团队。我们以优惠的价格，为广大群众、大学城各高校邻里同学，乡亲们，提供满意优质的服务。为您从疲劳的工作生活学习中，放松胫骨，恢复活力，重新回到高兴愉快的心情。
+
+### 地图
+
+![An image; this is the alt text](http://api.map.baidu.com/staticimage?center=113.41511,23.065076&markers=广州中医药大学大学城校区&width=740&height=300&zoom=18&markerStyles=s,A,0xff0000)
+
+### 价格
+
+> | 时间 | 价格 |
+|:--:|:--:|
+|1小时  |15元  |
+|2小时  |30元  |
+|3小时  |45元  |
+|4小时  |60元  |
+
+ <br />
+
+### 预约
+
+> 预约人姓名: <input type="text" id="fname"><br>
+预约人电话: <input type="text" id="fphone"><br>
+预约人时间: <input type="text" id="ftime"><br>
+<select id="hrs">
+  <option value="1小时">1小时</option>
+  <option value="2小时">2小时</option>
+  <option value="3小时">3小时</option>
+  <option value="4小时">4小时</option>
+</select>
+
+<input type="button" onclick="do_submit()" value="预约提交" />
+<script type="text/javascript">
+function do_submit(){
+	var fname = document.getElementById("fname");
+	var fphone = document.getElementById("fphone");
+	var ftime = document.getElementById("ftime");
+	var fhrs = document.getElementById("hrs");
+	alert("预约人:"+fname.value+" - 电话:"+fphone.value+" - 时间:"+ftime.value+" - 购买:"+fhrs.value);
+}
+</script>
+
+<br />
+
+### 联系
+
+>
+- 电话：(编辑中)
+- 手机：(编辑中)
+- 微信：33coming
+- 微博：33coming
+
+

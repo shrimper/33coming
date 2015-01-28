@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "猜数字!"
+date:   2015-01-28 10:49:13
+categories: game
+author: big3
+---
+
+神奇的数字
+
+
